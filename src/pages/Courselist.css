@@ -5,17 +5,20 @@
 
 }
 
-.block{
- display: flex;
-  justify-content: center;
+.block {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-
+  margin: 0 auto;
+  max-width: 1200px;
 }
+
 .head{
     display: flex;
   justify-content: space-between;
   width: 100%;
   max-width: 1200px;
+  padding-top: 30px;
 }
 
 .i1{
@@ -62,3 +65,468 @@ input:focus {
 .btn2 {
     background-color: #f5f5f5;
 }
+
+.cards{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  width: 100%;
+  flex-direction: column;
+
+}
+
+.card-info {
+  display: flex;
+  align-items: flex-start; 
+  
+  gap: 10px; 
+ 
+}
+.p1{
+    margin-top: 20px;
+}
+
+.t1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+
+.skills{
+    padding: 10px;
+    
+   
+}
+.skills1{
+  padding-left: 30px;
+}
+
+.p2{
+        overflow: hidden;
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    padding-top: 10px;
+    width: 600px;
+    padding-left: 30px;
+}
+
+
+.other {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 10px; 
+}
+.price h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+
+
+.more {
+  border: none;
+  background-color: #2572ff;
+  color: white;
+  width: 120px;
+  height: 35px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.t1{
+margin-bottom: 10px;
+padding-left: 30px;
+}
+.t1:hover{
+    color: blue;
+}
+
+.im1:hover {
+  filter: brightness(0.5);
+  transition: 0.3s ease;
+      transform: scale(1.02); 
+}
+.im1{
+    padding-left: 10px;
+    padding-bottom:10px ;
+}
+
+.more:hover{
+background-color: lightgrey;
+}
+
+.p1{
+  padding-left: 30px ;
+color: blue !important;
+}
+
+.card{
+    border: 1px solid  #ccc;
+    margin-top: 30px;
+     width: 1200px;
+
+}
+
+.card1{
+    border: 1px solid  #ccc;
+    margin-top: 30px;
+    width: 1200px;
+    margin-bottom: 20px;
+ 
+
+}
+
+
+.bb1{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  background-color: #2572ff;
+  color: white;
+
+}
+
+
+.bb2{
+   width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: #dce1e9;
+  
+  
+}
+.bb2:hover{
+  background-color: #2572ff ;
+}
+
+.button-holder2 {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+padding-left: 70px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.head-mobile{
+  display: none;
+}
+.buutons-holder-mobile{
+  display: none;
+}
+.cards-mobile{
+  display: none;
+}
+.button-holder2-mobile{
+  display: none;
+}
+
+  .cards-tablet{
+    display: none;
+   }
+
+
+
+@media screen and (max-width: 767px) {
+  .head {
+    display: none;
+  }
+  .head-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .head-mobile h1 {
+    margin: 0;
+    text-align: left;
+    margin-left: 10px;
+   padding: 20px;
+  }
+  .buttons-mobile {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: flex-start; 
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .buttons-mobile input,
+  .buttons-mobile button {
+    margin: 0;
+    margin-left: 20px; 
+
+  }
+  .buttons-mobile input {
+    width: 350px; 
+  }
+
+  
+.cards{
+  display: none;
+}
+
+
+.cards-mobile {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    justify-content: flex-start;
+    width: 100%; 
+    padding: 0 10px; 
+  }
+
+  .cards-mobile .card {
+    width: 100%; 
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 10px; 
+  }
+
+  .cards-mobile .im1 {
+    width: 100%; 
+    max-width: 100%;
+    height: auto; 
+    padding-left: 0; 
+  }
+
+  .cards-mobile .p2 {
+    width: 100%; 
+    max-width: 100%;
+    padding-left: 0; 
+  }
+
+  .cards-mobile .skills1,
+  .cards-mobile .skills,
+  .cards-mobile .t1,
+  .cards-mobile .p1 {
+    padding-left: 0; 
+  }
+
+  .cards-mobile .other {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%; 
+  }
+.skills-holder {
+  display: flex;
+  flex-direction: column;
+  gap: 5px; 
+}
+
+.skills-up {
+  display: flex;
+
+  gap: 30px; 
+  padding: 3px;
+}
+
+.skills-down {
+  display: flex;
+ 
+  gap: 55px;
+  padding: 3px;
+}
+
+.skills {
+  display: flex;
+  align-items: center; 
+}
+.other-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    padding: 10px;
+   
+  }
+
+  .price-mobile h3 {
+    font-size: 16px; 
+    margin: 0;
+  }
+  .other{
+    display: none;
+  }
+  .button-holder2{
+    display: none;
+  }
+
+  .button-holder2-mobile{
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+  }
+
+   .buttons-mobile button{
+    margin-left: 0;
+   }
+   .cards-tablet{
+    display: none;
+   }
+
+   
+
+  }
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .head {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 900px;
+    padding: 20px 15px;
+    margin: 0 auto;
+  }
+
+  .i1 {
+    width: 300px; 
+    max-width: 400px; 
+    font-size: 14px;
+    padding: 8px 15px;
+   
+  }
+
+  .buutons-holder {
+    gap: 10px;
+    margin-top: 10px; 
+  }
+
+  .btn1, .btn2 {
+    width: 32px;
+    height: 32px;
+  }
+    .cards-tablet{
+    display: flex;
+
+    flex-direction: column; 
+    align-items: flex-start; 
+    justify-content: flex-start;
+    width: 100%; 
+    padding: 0 10px; 
+   }
+
+   .cards{
+    display: none;
+
+   }
+
+   .cards-mobile{
+    display: none;
+   }
+    
+  .cards-tablet .card {
+    width: 99%; 
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 10px; 
+  }
+
+  .cards-tablet .im1 {
+    width: 200px;
+    max-width: 100%;
+    height: auto; 
+    padding-left: 0; 
+  }
+
+  .cards-tablet .p2 {
+    width: 100%; 
+    max-width: 100%;
+    padding-left: 25px; 
+  
+
+  }
+  .skiils-holder-tablet{
+   display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+   
+    align-items: flex-start; 
+      
+  
+  }
+
+  
+
+  .skills-right {
+  display: flex;
+    flex-direction: column;
+   
+    width: 60%;
+
+
+    
+  }
+
+  .skiils-left{
+  display: flex;
+    flex-direction: column; 
+    margin-left: 10px;
+   
+
+  }
+.im1:hover{
+   background-color: gray;
+    padding-bottom: 100px;
+   width: 200px; 
+     display: block; 
+    object-fit: cover; 
+
+}
+
+  .button-holder2{
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+  }
+
+
+  .t1, .p1{
+    padding-left: 15px;
+  }
+
+   }
+
+
+
+.input {
+  position: relative;
+  width: fit-content; 
+}
+
+
+.i1 {
+  padding-right: 30px; 
+}
+
+.search-button {
+  position: absolute;
+  right: 10px; 
+  top: 50%;
+  transform: translateY(-50%); 
+  background: none; 
+  border: none; 
+  cursor: pointer;
+
+
+}
+
+
+
+  
+
+
