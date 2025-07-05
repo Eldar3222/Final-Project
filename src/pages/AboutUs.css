@@ -1,0 +1,479 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between; 
+  
+     
+ 
+
+ 
+}
+
+.text-info {
+ width: 500px;
+ padding-top: 90px;
+ padding-left: 100px;
+}
+
+.img-info {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: start; 
+  padding-right: 150px;
+ 
+}
+
+.img-info img {
+  width: 500px;
+  height: auto; 
+ 
+}
+
+.p23{
+    width: 450px;
+        line-height: 30px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #626a77;
+    font-family: "Poppins", sans-serif;
+}
+
+h1{
+   
+    padding-bottom: 10px;
+        font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.btn1{
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid blue;
+    color: blue;
+    background-color: white;
+}
+
+.btn1:hover{
+    background-color: blue;
+    color: white;
+
+}
+.text-info{
+    padding-right: 50px;
+}
+
+
+.text-info1{
+    padding-top: 140px;
+   
+    padding-right: 180px;
+}
+.img-info1{
+    padding-left: 150px;
+}
+.img-info1 img{
+  width: 400px;
+}
+
+.about-container1{
+      display: flex;
+  justify-content: space-between; 
+  background-color: #f8f9fa;
+  
+  
+
+}
+h2{
+  color: #0b1c39;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+.l3{
+  font-size: 30px;
+}
+
+.l2{
+  font-size: 25px;
+}
+.about-container-mobile {
+  display: none;
+}
+.about-container1-mobile{
+  display: none;
+}
+.notebook {
+  background-image: url("https://images.wallpaperscraft.ru/image/single/noutbuk_kniga_estetika_214147_1600x900.jpg");
+  background-position: center; 
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+  position: relative;
+  
+}
+
+.notebook::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  background-color: rgba(169, 169, 169, 0.5);
+}
+
+.notebook {
+  background-image: url("https://images.wallpaperscraft.ru/image/single/noutbuk_kniga_estetika_214147_1600x900.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;  
+  justify-content: center;  
+  height: 450px;
+  position: relative;
+  flex-direction: column; 
+}
+
+.notebook::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(169, 169, 169, 0.5);
+}
+
+.p22 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 0;  
+  margin-top: -70px;  
+}
+
+.s3 {
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  
+}
+
+.ch1 {
+  background-color: transparent;
+  border: none;
+
+}
+
+.i5{
+  width: 100px;
+  border-radius: 90px;
+  border: 1px solid white;
+}
+.my-line{
+  padding-left: 100px;
+  padding-top: 30px;
+}
+
+.team {
+  padding: 30px;
+  padding-left: 100px;
+   display: flex; 
+   flex-direction: row;
+   gap: 50px;
+
+ 
+}
+
+.our-team {
+  padding: 30px;
+    box-shadow: 0 .125rem 0.5rem rgba(0, 0, 0, .075) !important;
+  width: 250px;
+  height: 300px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column;
+  
+
+}
+
+.m1 {
+  font-size: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.m2 {
+  color: #626a77;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.i5 {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 5px solid white;
+  outline: 2px solid #dee2e6; 
+}
+
+.p32{
+    color: #626a77;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+
+}
+@media screen and (max-width: 767px) {
+  .about-container,
+  .about-container1 {
+    display: none;
+  }
+
+  .about-container-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  
+  }
+
+  .text-info-mobile {
+    max-width: 80%;
+    text-align: left;
+  }
+
+  .p23-mobile {
+    max-width: 80%;
+    font-size: 16px;
+    line-height: 28px;
+    color: #626a77;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+
+ 
+  .about-container1-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  
+    background-color: #f8f9fa;
+  }
+
+  .about-container1-mobile img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .text-info1-mobile {
+    max-width: 80%;
+    text-align: left;
+  }
+
+  .text-info1-mobile h2 {
+ text-align: left;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    width: 60%;
+    font-size: 28px;
+    font-weight: 500;
+    
+    
+  }
+
+  .text-info1-mobile p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 28px;
+    color: #626a77;
+    font-family: "Poppins", sans-serif;
+
+  }
+.notebook {
+    width: 100%;
+    height: auto;  
+    min-height: 350px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center; 
+  }
+
+  .notebook::after {
+    height: 100%; 
+  }
+
+  .p22 {
+    font-size: 30px; 
+  }
+
+  .s3 {
+    font-size: 16px; 
+  }
+  .team {
+  padding: 30px;
+  padding-left: 100px;
+   display: flex; 
+   flex-direction: column;
+   gap: 50px;
+
+ 
+}
+.p32{
+  font-size: 16px;
+  width: 90%;
+}
+.my-line{
+  padding-left: 60px;
+}
+}
+
+
+ 
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .about-container, .about-container1{
+    display: none;
+
+  }
+
+  .about-container-mobile, .about-container1-mobile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+   
+   
+    padding: 20px;
+    
+
+  }
+  .about-container-mobile 
+  
+  .text-info-mobile {
+    max-width: 80%;
+    text-align: left;
+  }
+
+  .p23-mobile {
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 28px;
+    color: #626a77;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+
+ 
+  .about-container1-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  
+    background-color: #f8f9fa;
+  }
+
+  .about-container1-mobile img {
+    width: 600px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .text-info1-mobile {
+    max-width: 80%;
+    text-align: left;
+  }
+
+  .text-info1-mobile h2 {
+ text-align: left;
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+   
+    font-weight: 500;
+    
+    
+  }
+
+  .text-info1-mobile p {
+    text-align: left;
+ 
+    line-height: 28px;
+    color: #626a77;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+
+  }
+
+.text-info-mobile{
+  padding-left: 20px;
+}
+
+  .team {
+  padding: 30px;
+  padding-left: 100px;
+   display: flex; 
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 50px;
+
+
+
+  }
+
+}
+.notebook {
+    width: 100%;
+    height: auto;  
+    min-height: 350px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center; 
+  }
+
+  .notebook::after {
+    height: 100%; 
+  }
+
+  .p22 {
+    font-size: 30px; 
+  }
+
+  .s3 {
+    font-size: 16px; 
+  }
+
+
+
+
+

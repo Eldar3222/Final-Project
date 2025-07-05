@@ -1,11 +1,12 @@
 import React from "react";
-import Courselist from "./pages/Courselist";
+
 import Footer from "./componnents/commons/Footer";
+import AboutUs from "./pages/AboutUs";
 
 export default function App() {
   return (
     <div>
-      <Courselist/>
+     <AboutUs/>
   
    <Footer/>
     </div>
