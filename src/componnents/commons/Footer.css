@@ -14,10 +14,10 @@ footer{
     margin-left: 10px;
 }
 .p1{
-  margin-top: 20px;
+  padding-top: 20px;
         line-height: 30px;
     font-size: 16px;
-    margin-bottom: 15px;
+    padding-bottom: 15px;
     color: rgb(98, 106, 119);
     font-family: Poppins, sans-serif;
     width: 250px;
