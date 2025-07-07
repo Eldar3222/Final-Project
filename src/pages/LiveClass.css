@@ -1,0 +1,394 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.notebook {
+  background-image: url("https://images.wallpaperscraft.ru/image/single/noutbuk_kniga_estetika_214147_1600x900.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;  
+  justify-content: center;  
+  height: 450px;
+  position: relative;
+  flex-direction: column; 
+}
+
+.notebook::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(169, 169, 169, 0.5);
+}
+
+.p22 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 0;  
+  margin-top: -70px;  
+}
+
+.s3 {
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  
+}
+
+.ch1 {
+  background-color: transparent;
+  border: none;
+
+}
+.p101{
+      width: 755px;
+      
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #626a77;
+    font-family: "Poppins", sans-serif;
+    padding: 5px;
+
+}
+
+.i23{
+    width: 760px;
+}
+
+.our-class{
+    padding-left: 70px;
+       display: flex;
+       padding-bottom: 30px;
+       
+
+   
+}
+.time-button{
+    background-color: #0b1c39;
+    color: white;
+    height: 60px;
+    width: 70px;
+  border: none;
+  font-size: 24px;
+ 
+}
+.time-details{
+    display: flex;
+    gap: 5px;
+    padding: 20px;
+    padding-left: 50px;
+    
+}
+
+.time-button p{
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.time-button{
+  font-size: 18px;
+}
+
+.details {
+  padding-left: 50px;
+  width: 350px;
+
+  height: 500px;
+}
+
+.d5 {
+  background-color: #0b1c39;
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.p44 {
+  background-color: rgb(253, 249, 249);
+  padding: 5px;
+  font-size: 20px; 
+  padding: 9px;
+  font-weight: 300;
+ 
+ 
+}
+.details-pair{
+    height:600px;
+ padding: 3opx;
+  
+}
+.p45{
+   background-color: rgb(253, 249, 249);
+  padding: 5px;
+  font-size: 15px; 
+  padding-left: 10px;
+
+}
+
+.join-buttons{
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  gap: 10px;
+
+}
+
+.btn-info2, .btn-info{
+  width: 300px;
+  background-color: #a5452d;
+  height: 40px;
+  color: white;
+  border: none;
+}
+
+.btn-info1{
+    width: 300px;
+  background-color: #0056b3;
+  height: 40px;
+  color: white;
+  border: none;
+}
+  .btn-info-tablet{
+    display: none;
+  }
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+
+
+    .notebook {
+    width: 100%;
+    height: auto;  
+    min-height: 350px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center; 
+  }
+
+  .notebook::after {
+    height: 100%; 
+  }
+
+  .p22 {
+    font-size: 30px; 
+  }
+
+  .s3 {
+    font-size: 16px; 
+  }
+
+  .our-class {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: 100%;
+    padding: 0 20px; 
+  }
+
+  .class-info {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .i23 {
+    width: 100%; 
+    max-width: 100%; 
+  }
+
+  .p101 {
+    width: 100%; 
+    padding: 10px; 
+  }
+
+.timer-container,
+  .details {
+    width: 100%;
+    max-width: 100%; 
+    padding: 15px;
+    height: 100%;
+   
+  }
+
+
+  .time-details {
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 10px; 
+    gap: 8px;
+    height: 100%;
+  }
+
+  .time-details button {
+  height: 28%;
+    width: 23%; 
+    padding: 15px;
+    font-size: 13px;
+    
+ 
+ 
+  }
+
+  .join-buttons {
+    padding: 15px;
+  }
+
+
+
+  .time-details p {
+    font-size: 12px; 
+    padding-top: 5px;
+  }
+  .btn-info, .btn-info1, .btn-info2{
+    width: 100%;
+  }
+  .btn-info-tablet{
+    display: none;
+  }
+
+}
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .notebook {
+    width: 100%;
+    height: auto;  
+    min-height: 350px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center; 
+  }
+
+  .notebook::after {
+    height: 100%; 
+  }
+
+  .p22 {
+    font-size: 30px; 
+  }
+
+  .s3 {
+    font-size: 16px; 
+  }
+  .our-class{
+    padding-left: 70px;
+       display: flex;
+       padding-bottom: 30px;
+       
+
+   
+}
+ .class-info {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .i23 {
+    width: 100%; 
+    max-width: 100%; 
+  }
+
+  .p101 {
+    width: 100%; 
+    padding: 10px; 
+  }
+   .timer-container {
+    width: 100%; 
+   
+  }
+  .time-details{
+    width: 75%;
+  
+  }
+
+  .time-button{
+    width: 100%;
+  font-size: 16px;
+  }
+
+  .time-button p {
+    font-size: 13px;
+    padding-top: 13px;
+  }
+  .details{
+    width: 70%;
+ 
+  }
+  .p44{
+    width: 100%;
+  }
+
+    .join-buttons {
+    width: 100%;
+    height: 100%;
+   
+  }
+  .btn-info{
+    width: 65%;
+    font-size: 16px;
+    
+ 
+   
+  }
+
+
+    
+    
+ 
+
+
+  
+
+  .btn-info1{
+    width: 65%;
+    font-size: 16px;
+  }
+  
+  .btn-info2{
+    display: none;
+    
+  }
+  .btn-info-tablet{
+    display: flex;
+align-items: center;
+    justify-content: center;
+      width: 65%;
+  background-color: #a5452d;
+  height: 7% ;
+  color: white;
+  border: none;
+  font-size: 16px;
+  }
+
+
+
+
+  
+}

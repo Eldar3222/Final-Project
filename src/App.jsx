@@ -1,12 +1,12 @@
 import React from "react";
 
 import Footer from "./componnents/commons/Footer";
-import AboutUs from "./pages/AboutUs";
+import LiveClass from "./pages/LiveClass";
 
 export default function App() {
   return (
     <div>
-     <AboutUs/>
+  <LiveClass/>
   
    <Footer/>
     </div>
