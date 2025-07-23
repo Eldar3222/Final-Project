@@ -1,0 +1,410 @@
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  .main_holder {
+    width: 100%;
+    height: 51px;
+    background-color: antiquewhite;
+  }
+
+  .holder_info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f6f7fa;
+    height: 100%;
+  }
+
+
+  .info-first {
+    display: flex;
+    /* background-color: yellow; */
+    gap: 25px;
+  }
+
+  .info-first i {
+    margin-right: 8px;
+    /* ← отодвигает иконку от текста */
+    color: blue;
+  }
+
+  .info-first a {
+
+    text-decoration: none;
+    color: black;
+  }
+
+  .info-second {
+    display: flex;
+    /* background-color: yellow; */
+    gap: 25px;
+  }
+
+  .info-second a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .second_basic {
+    width: 100%;
+    height: 90px;
+  }
+
+  .info-holder-second-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+  }
+
+
+  .info-container ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .info-container li {
+    display: flex;
+    padding: 10px;
+  }
+
+  #btn-header {
+    border-radius: 30px;
+    width: 149px;
+    height: 48px;
+  }
+
+  .info-container li i {
+    margin-left: 5px;
+    display: flex;
+    font-size: 12px;
+    padding: 8px;
+  }
+
+
+  #li-1 {
+    color: blue;
+  }
+
+  /* 
+  .drop-down{
+
+  width: 233px;
+  height: 296px;
+  background-color: red;
+
+  } */
+
+  .drop-down {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 8px 0;
+    min-width: 180px;
+    z-index: 999;
+    overflow: hidden;
+  }
+
+  #li-1 {
+    position: relative;
+  }
+
+  #li-1:hover .drop-down {
+    display: block;
+  }
+
+
+  .holder-drop ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .holder-drop li {
+    padding: 10px 16px;
+    white-space: nowrap;
+    transition: 0.2s;
+  }
+
+  .holder-drop li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+
+  .drop-down {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 8px 0;
+    min-width: 180px;
+    z-index: 999;
+    overflow: hidden;
+  }
+
+  #li-2 {
+    position: relative;
+  }
+
+  #li-2:hover .drop-down {
+    display: block;
+  }
+
+
+  .holder-drop ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .holder-drop li {
+    padding: 10px 16px;
+    white-space: nowrap;
+    transition: 0.2s;
+  }
+
+  .holder-drop li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+
+
+  .drop-down {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 8px 0;
+    min-width: 180px;
+    z-index: 999;
+    overflow: hidden;
+  }
+
+  #li-3 {
+    position: relative;
+  }
+
+  #li-3:hover .drop-down {
+    display: block;
+  }
+
+
+  .holder-drop ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .holder-drop li {
+    padding: 10px 16px;
+    white-space: nowrap;
+    transition: 0.2s;
+  }
+
+  .holder-drop li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+
+
+  #li-4 {
+    position: relative;
+  }
+
+  #li-4:hover .drop-down {
+    display: block;
+  }
+
+
+  .holder-drop ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .holder-drop li {
+    padding: 10px 16px;
+    white-space: nowrap;
+    transition: 0.2s;
+  }
+
+  .holder-drop li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+
+  #burger_111{
+
+  display: none;
+
+  }
+
+
+ul li {
+  position: relative;
+}
+
+.drop-down {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  min-width: 200px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+ul li:hover .drop-down {
+  display: block;
+}
+
+.custom-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  white-space: nowrap; /* Чтобы текст не переносился */
+  border-radius: 30px; /* для круглых краев */
+}
+
+
+  @media (max-width: 576px) {
+
+    .main_holder {
+
+      height: 120px;
+
+    }
+
+
+    .holder_info {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      text-align: center;
+    }
+
+    .info-first,
+    .info-second {
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .info-first a,
+    .info-second a {
+      font-size: 14px;
+    }
+
+    .info-second {
+      display: flex;
+      flex-direction: row;
+  }
+
+  .info-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px; 
+    position: relative;
+  }
+
+
+  .info-container ul {
+    display: none;
+  }
+
+
+  #burger_111 {
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: black;
+    display: flex;
+  }
+
+
+  }
+
+
+  @media (max-width: 991px) and (min-width: 577px) {
+    
+    .main_holder {
+      height: 120px;
+    }
+
+    .holder_info {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      text-align: center;
+    }
+
+    .info-first,
+    .info-second {
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .info-first a,
+    .info-second a {
+      font-size: 14px;
+    }
+
+    .info-second {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .info-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      position: relative;
+    }
+
+    .info-container ul {
+      display: none;
+    }
+
+    #burger_111 {
+      font-size: 1.8rem;
+      cursor: pointer;
+      color: black;
+      display: flex;
+    }
+  }

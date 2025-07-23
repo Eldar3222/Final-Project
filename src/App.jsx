@@ -1,14 +1,35 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 
+import Header from "./componnents/Header";
 import Footer from "./componnents/commons/Footer";
-import Myprofile from "./pages/Myprofile";
 
+// Страницы
+import Courselist from "./pages/Courselist";
+import BlogGrid from "./pages/BlogGrid";
+import AboutUs from "./pages/AboutUs";
+import Conactus from "./pages/Conactus";
+import LiveClass from "./pages/LiveClass";
+import BecomeTeacher from "./pages/BecomeTeacher";
+import Myprofile from "./pages/Myprofile";
 
 export default function App() {
   return (
-    <div>
-<Myprofile/> 
-   <Footer/>
-    </div>
+    <>
+      <Header />
+
+      <Routes>
+        <Route path="/" element={<h1 style={{ padding: "40px" }}>Главная страница</h1>} />
+        <Route path="/pages/Courselist" element={<Courselist />} />
+        <Route path="/pages/BlogGrid" element={<BlogGrid />} />
+        <Route path="/pages/AboutUs" element={<AboutUs />} />
+        <Route path="/pages/Conactus" element={<Conactus />} />
+        <Route path="/pages/LiveClass" element={<LiveClass />} />
+        <Route path="/pages/BecomeTeacher" element={<BecomeTeacher />} />
+        <Route path="/pages/Myprofile" element={<Myprofile />} />
+      </Routes>
+
+      <Footer />
+    </>
   );
 }
